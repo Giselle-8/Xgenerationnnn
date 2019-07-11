@@ -1,0 +1,151 @@
+.header {font-family: 'Oswald';
+		background-color: pink;
+		text-align: center;
+		font-size: 20pt;
+}
+
+#logo {text-align: center;
+
+
+}
+
+#socialright {
+	
+	word-spacing: 15pt;
+	padding-right: 40px;
+
+}
+
+#legal {text-align: center;}
+
+
+
+
+h3{
+	font-family: 'Oswald';
+	font-size: 20pt;
+}
+
+
+h4{
+	font-family: 'Oswald';
+	font-size: 17pt;
+}
+
+
+p , #shipping, #returns, #size {
+	font-family: 'Abel', sans-serif;
+	font-size: 15pt;
+
+}
+
+/*GRIDDDDDDDDDDDDD----------------*/
+
+.footer {
+	background-color: pink;
+	display: grid;
+	grid-auto-columns:25% 25% 25% 25%;
+
+}
+
+
+#navone {display: grid;
+		grid-template-columns: 20% 20% 20% 20% 20%;}
+
+
+footer {
+	background-color: pink;
+	padding: 30pt;
+	display: grid;
+	text-align: left;
+	grid-gap: 20px;
+	grid-template-rows: 80% 20%;
+	grid-template-columns: 35% 30% 30%;
+
+}
+
+#socialleft {
+	/*padding-left:0;
+ 	 margin-bottom:0;*/
+ 	 word-spacing: 15pt;
+     height: auto;
+ 	 padding-right: 40px;
+ 	 text-align: right;
+
+}
+
+
+
+
+
+/*---- putting the text black and without the line in NAVIGATION--- */
+ 
+ #navone a {
+text-decoration: none;
+color: black;
+}
+
+#navone a:hover {
+	color: white;
+}
+
+ #service a {
+text-decoration: none;
+color: black;
+}
+
+
+#service a:hover {color: white;}
+
+
+ul {list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;}
+
+#size a {
+	text-decoration: none;
+	color: black;
+}
+#size a:hover {color: pink;}
+
+
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none;} 
+a:focus { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+
+
+/*------ fixing the size of the picture -----
+*/
+
+#cover {
+	width: 100%;
+	padding: 10pt;
+    height: auto;
+
+}
+
+
+
+.input{
+	color: grey;
+}
+
+
+
+.submit {
+	font-family: 'Abel', sans-serif;
+	font-size: 10pt;
+}
+
+
+
+/*LINEEEEE*/
+
+hr { 
+  display: block;
+  margin-left: auto;
+  margin-right: 10%;
+  border-width: 0.5px;
